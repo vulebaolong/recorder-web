@@ -10,7 +10,6 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
 import ToggleColorMode from "./components/ToggleColorMode";
-import { alpha } from "@mui/material";
 
 const logoStyle = {
   width: "140px",
