@@ -1,14 +1,38 @@
 :root {
-  --header-height: 100px;
+    --header-height: 100px;
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  text-rendering: optimizeLegibility;
-  scroll-padding-top: var(--header-height);
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "Inter", sans-serif;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: var(--header-height);
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
+/*! SCROLLBAR - start */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(100, 116, 139, 0.502) rgba(100, 116, 139, 0.161);
+}
+*::-webkit-scrollbar {
+    width: 0.375rem;
+}
+/* CSS for horizontal scrollbars */
+*::-webkit-scrollbar:horizontal {
+    height: 0.375rem;
+}
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-track:horizontal,
+*::-webkit-scrollbar-corner {
+    background-color: rgba(100, 116, 139, 0.161);
+}
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-thumb:horizontal {
+    border-radius: 5px;
+    background-color: rgba(100, 116, 139, 0.502);
+}
+/* SCROLLBAR - end */
