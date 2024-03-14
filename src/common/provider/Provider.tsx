@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import { store } from "../../store/store";
 import ThemeProvider from "./theme/ThemeProvider";
 import "../../styles/index.css";
+import "../../styles/animation.css";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Provider({ children }: { children: ReactNode }) {
