@@ -1,24 +1,21 @@
 import AirplayOutlinedIcon from "@mui/icons-material/AirplayOutlined";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
-import StopRoundedIcon from "@mui/icons-material/StopRounded";
 import PauseRoundedIcon from "@mui/icons-material/PauseRounded";
 import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
+import StopRoundedIcon from "@mui/icons-material/StopRounded";
 import {
-    Backdrop,
     Box,
     Button,
     Container,
-    Fade,
-    Modal,
     Stack,
     Typography,
-    alpha,
+    alpha
 } from "@mui/material";
 import { useRef, useState } from "react";
 import { toast } from "react-toastify";
 import { RecordRTCPromisesHandler, invokeSaveAsDialog } from "recordrtc";
-import Timer from "./components/Timer";
 import ModalCountToPlay from "./components/ModalCountToPlay";
+import Timer from "./components/Timer";
 
 let countToPlayInterval: number | undefined = undefined;
 
